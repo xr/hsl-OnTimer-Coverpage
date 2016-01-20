@@ -446,5 +446,6 @@ form {
     width: 693px;
     height: 856px;
     margin-top: -860px; } }
-
-/*# sourceMappingURL=style.css.map */
+#mc_embed_signup_scroll form {
+  padding: 0;
+}
