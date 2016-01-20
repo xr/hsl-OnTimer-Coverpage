@@ -338,6 +338,13 @@ form {
     overflow: auto;
     height: auto; }
 
+  form {
+    margin-top: 30px !important;
+  }
+
+  form input[type=submit] {
+    margin-top: 10px !important;
+  }
   .container {
     width: 100%;
     height: 100%; }
@@ -367,13 +374,13 @@ form {
         width: 250px;
         margin-bottom: 15px; }
 
-  form#subForm input[type=email] {
+  form input[type=email] {
     width: 100%;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     border-right: 2px solid #e5e6e7;
     margin-bottom: 0; }
-  form#subForm button {
+  form button {
     margin-top: 10px;
     width: 100%;
     border-top-left-radius: 6px;
@@ -381,7 +388,7 @@ form {
     position: relative;
     left: 0;
     margin-bottom: 15px; }
-  form#subForm h4 {
+  form h4 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -446,6 +453,3 @@ form {
     width: 693px;
     height: 856px;
     margin-top: -860px; } }
-#mc_embed_signup_scroll form {
-  padding: 0;
-}
